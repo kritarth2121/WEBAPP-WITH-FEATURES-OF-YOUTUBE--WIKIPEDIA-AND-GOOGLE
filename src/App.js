@@ -33,9 +33,9 @@ class App extends React.Component {
 
       <Header/>
       <Route  path="/VideoSearch" exact component={Videos} />
+      <Route  path="/" exact component={SeasonDisplay} />
 
       <div className="App">
-    <Route  path="/" exact component={SeasonDisplay} />
     <Route  path="/Searchbar" exact component={Searchbar} />
     <Route  path="/Search" exact component={Search}/>
     </div>
