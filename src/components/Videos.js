@@ -1,10 +1,11 @@
 import React ,{useState ,useEffect} from 'react';
 import VideoDetail from './VideoDetail';
 import VideoList from './VideoList';
+import '../css/Videos.css';
+
 import youtube from '../apis/youtube';
 import SearchVideo from './SearchVideo';
 const KEY = "AIzaSyB1so2JSVlGwiWE4u_sUFsKYPzarWcnNAQ";
-import '../css/Videos.css';
 
 
 class Videos extends React.Component {
