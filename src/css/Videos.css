@@ -1,0 +1,11 @@
+.eleven{
+    width:(100/16)*11%;
+
+}
+.five{
+    width: (100/16)*5%;
+    
+}
+.uirow{
+    display:flex;
+}
